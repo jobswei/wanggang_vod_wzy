@@ -1,0 +1,10 @@
+MODEL:
+  BACKBONE:
+    NAME: "RCNNHeadedModel"
+  RESNETS:
+    RES2_OUT_CHANNELS: 512
+  ROI_HEADS:
+    NAME : "Res5ROIHeads"
+    NUM_CLASSES : 30
+  MASK_ON : False
+
